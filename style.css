@@ -137,6 +137,15 @@ h4{
 footer{
     padding-top: 4rem;
 }
+.navbar-toggler {
+    background-color: white;
+    border: none;
+}
+.navbar-collapse {
+    background-color:transparent;
+    backdrop-filter: blur(25px);
+}
+
 
 @media (max-width:440px) {
     
@@ -152,7 +161,7 @@ footer{
         width: 100%;
     }
     .testimonial-text{
-        width: 400px;
+        width: 300px;
     }
     .navbar-brand{
         font-size: 3.4rem;
